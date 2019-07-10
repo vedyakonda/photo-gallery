@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+img{
+  width: 470px;
+  height: 450px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: ls;
+}
+img:hover{
+  filter: grayscale(0);
+  transform:scale(1.1);
+}
+.size{
+  object-fit: cover;
+}
+div{
+  background-color: #FAD2DD;
+  justify-content:space-around;
+}
+h1{
+  margin:20px;
+  padding:20px;
+  text-shadow: 2px 2px #EE5C96;
+}
